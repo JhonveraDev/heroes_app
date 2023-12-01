@@ -1,3 +1,4 @@
+
 <mat-card>
   <mat-card-header>
     <mat-card-title>{{ hero.superhero }}</mat-card-title>
@@ -24,14 +25,19 @@
 
   <mat-card-actions>
 
-    <button mat-button mat-raised color="primary" [routerLink]="['/heroes/edit', hero.id ]">
+    <button mat-button
+      mat-raised
+      color="primary"
+      [routerLink]="['/heroes/edit', hero.id ]">
       <mat-icon>edit</mat-icon>
       Editar
     </button>
 
     <span class="spacer"></span>
 
-    <button mat-button mat-raised [routerLink]="['/heroes', hero.id ]">
+    <button mat-button
+      mat-raised
+      [routerLink]="['/heroes', hero.id ]">
       <mat-icon>more_horiz</mat-icon>
       Más
     </button>
