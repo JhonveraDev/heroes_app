@@ -1,5 +1,7 @@
 # HeroesApp
 
+![](preview-01.PNG)
+
 ## Dev
 
 1. Clonar el proyecto
